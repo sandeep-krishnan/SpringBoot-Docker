@@ -2,12 +2,25 @@
 
 mvn install dockerfile:build
 
-#Docker
 
-Check if docker images were created
+#Running without Docker
+mvn spring-boot:run
+
+#Docker
+##Check if docker images were created
 
 docker images
 
-#Run
+##Run the docker image
 
 docker run -p 8080:8080 -t springio/user-service
+
+#Checking the application
+
+Try the following URLs :-
+
+http://localhost:8080/health
+
+http://localhost:8080/api/user
+
+http://localhost:8080/api/user/1
