@@ -13,7 +13,7 @@ docker images
 
 ##Run the docker image
 
-docker run -p 8080:8080 -t microservices/user-service
+docker run -p 80:8080 -t microservices/user-service
 
 #Checking the application
 

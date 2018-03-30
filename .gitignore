@@ -1,1 +1,3 @@
-UserService.iml
+*.iml
+target/
+src/test/java/com/.DS_Store

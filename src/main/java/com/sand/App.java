@@ -37,7 +37,7 @@ public class App
             System.out.println("");
 
             // fetch an individual customer by ID
-            User customer = repository.findOne(1L);
+            User customer = repository.findById(1L).get();
             System.out.println("Customer found with findOne(1L):");
             System.out.println("--------------------------------");
             System.out.println(customer.toString());
