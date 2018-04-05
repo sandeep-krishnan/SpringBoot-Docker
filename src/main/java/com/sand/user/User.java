@@ -1,4 +1,4 @@
-package com.sand.entity;
+package com.sand.user;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

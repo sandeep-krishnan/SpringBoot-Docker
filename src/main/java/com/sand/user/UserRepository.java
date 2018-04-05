@@ -1,6 +1,6 @@
-package com.sand.repository;
+package com.sand.user;
 
-import com.sand.entity.User;
+import com.sand.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,7 +1,5 @@
-package com.sand.controller.rest;
+package com.sand.user;
 
-import com.sand.entity.User;
-import com.sand.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

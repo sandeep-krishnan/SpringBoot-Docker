@@ -1,7 +1,7 @@
 package com.sand;
 
-import com.sand.entity.User;
-import com.sand.repository.UserRepository;
+import com.sand.user.User;
+import com.sand.user.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
