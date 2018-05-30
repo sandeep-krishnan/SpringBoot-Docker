@@ -11,20 +11,20 @@ import java.util.List;
 public class UserRestController {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserService userService;
 
     @RequestMapping("")
     public List<User> getAllUsers() {
-        return userRepository.findAll();
+        return userService.findAll();
     }
 
     @RequestMapping("/{id}")
     public User getUserById(@PathVariable Long id) {
-        return userRepository.findById(id).get();
+        return userService.findById(id);
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
     public User createUser(@RequestBody User user) {
-        return userRepository.save(user);
+        return userService.save(user);
     }
 }
